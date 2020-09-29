@@ -1,0 +1,37 @@
+body{
+    width:50%;
+    padding-bottom:200px;
+    margin: 0 auto; /* This was specified in the quesion */
+
+}
+
+
+.textdiv{
+    background-color:#1E1E30;
+    text-align:center;
+
+    
+    font-family:'IM Fell French Canon SC';
+    font-size: 20px;
+    color:#6B747C ;
+    margin: 0 auto;
+    padding:20px 0 20px 0;
+}
+
+.textdiv input{
+    background-color: #1f1f29;
+    font-family:'Arima Madurai';
+    font-size:16px;
+    color:#6B747C;
+    
+    border:2px solid #007AFE;
+    padding:10px;
+   /* border-right:none; */
+}
+
+.Button{
+    
+    margin-left: 313px;
+}
+
+

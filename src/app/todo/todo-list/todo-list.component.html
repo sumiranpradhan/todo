@@ -1,0 +1,20 @@
+<head>
+    
+    <link href='https://fonts.googleapis.com/css?family=IM Fell French Canon SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+</head>
+<body>
+    <br>
+    
+    <div class="List">
+        <p id = "p1" >
+
+            Following is the list of Tasks :
+            
+        </p>
+        <ul><li id = "p2" *ngFor="let task of tasks" >{{task}}</li></ul></div>
+<app-todo-footer [tasks]="tasks"></app-todo-footer>
+</body>
+
+
+

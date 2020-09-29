@@ -1,0 +1,27 @@
+body{
+    width:50%;
+    margin:0 auto;
+
+    padding-bottom:5px;
+    
+    font-family:'Arima Madurai';
+}
+
+p{
+    background-color:#1E1E30;
+    text-align:center;
+    color:#27A644;
+
+
+    font-size: 20px;
+    margin: 0 auto;
+    padding:20px 0 20px 0;
+    
+    
+}
+
+#itemno
+{
+    color:#E12F27;
+  
+}

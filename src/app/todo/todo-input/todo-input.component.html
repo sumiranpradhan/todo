@@ -1,0 +1,24 @@
+<head>
+    <link href='https://fonts.googleapis.com/css?family=IM Fell French Canon SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Darker Grotesque' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <div class="textdiv">
+        <input #newTask
+          (keyup.enter)="addTask(newTask.value)"
+          (blur)="addTask(newTask.value); newTask.value='' ">
+    </div>
+    
+    <div class="Button">
+        <button (click)="addTask(newTask.value)" placeholder="Your input..">Add Task</button></div>
+    
+    <app-todo-list [tasks]="tasks"></app-todo-list>
+
+</body>
+    
+    
+

@@ -1,0 +1,21 @@
+body{
+
+    width:50%;
+    margin:0 auto;
+    padding-top:30px;
+    
+    padding-bottom:10px;
+    
+}
+
+p{
+    background-color:#1E1E30;
+    text-align:center;
+    color:#007AFE;
+    font-family: 'Artifika';
+    font-size: 30px;
+    margin: 0 auto;
+    padding:20px 0 20px 0;
+    
+    
+}
